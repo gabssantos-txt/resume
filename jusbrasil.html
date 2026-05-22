@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo – Gabriela Santos | Sr. Product Designer · AI Product Experience</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    ::-webkit-scrollbar { width: 0; }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    * { font-family: 'Inter', sans-serif; }
+    .keyword-tag {
+      display: inline-block;
+      background: #FFF7ED;
+      color: #9a3412;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin: 2px 2px 2px 0;
+    }
+    .keyword-tag-blue {
+      display: inline-block;
+      background: #EFF6FF;
+      color: #1e3a8a;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin: 2px 2px 2px 0;
+    }
+    .metric-badge {
+      background: #F0FDF4;
+      border-left: 3px solid #16A34A;
+      padding: 6px 10px;
+      border-radius: 0 4px 4px 0;
+      margin-top: 6px;
+      font-size: 12.5px;
+      color: #15803D;
+      font-weight: 500;
+    }
+    .ai-badge {
+      background: #FFF7ED;
+      border-left: 3px solid #EA580C;
+      padding: 6px 10px;
+      border-radius: 0 4px 4px 0;
+      margin-top: 6px;
+      font-size: 12.5px;
+      color: #9a3412;
+      font-weight: 500;
+    }
+    .section-divider {
+      border: none;
+      border-top: 1.5px solid #E5E7EB;
+      margin: 20px 0;
+    }
+    .exp-bullet::before {
+      content: "▸";
+      color: #EA580C;
+      margin-right: 6px;
+      font-size: 11px;
+    }
+    .diff-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #FFFBEB;
+      border: 1px solid #FDE68A;
+      color: #92400E;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin: 2px 2px 2px 0;
+    }
+    @media print {
+      @page {
+        size: A4;
+        margin: 12mm 14mm;
+      }
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body {
+        width: 100%;
+        height: auto;
+        background: white !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .no-print { display: none !important; }
+      body > div.max-w-\[800px\] {
+        max-width: 100% !important;
+        box-shadow: none !important;
+        border: none !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      section, .mb-7, .metric-badge, .ai-badge, ul {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      h2 { page-break-after: avoid; break-after: avoid; }
+      h3 { page-break-after: avoid; break-after: avoid; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 py-8 px-4">
+
+  <!-- Print button -->
+  <div class="no-print max-w-[800px] mx-auto mb-4 flex justify-end gap-2">
+    <button onclick="window.print()" class="text-xs bg-orange-700 text-white px-4 py-2 rounded-lg hover:bg-orange-800 transition">
+      ⬇ Imprimir / Salvar PDF
+    </button>
+  </div>
+
+  <!-- Resume container -->
+  <div class="max-w-[800px] mx-auto bg-white shadow-sm border border-gray-100 rounded-xl">
+
+    <!-- Header -->
+    <div class="bg-gradient-to-r from-gray-900 to-gray-700 px-10 py-8 text-white">
+      <h1 class="text-3xl font-bold tracking-tight">Gabriela Santos</h1>
+      <p class="text-orange-300 text-base font-semibold mt-1">Sr. Product Designer · AI Product Experience · Discovery & Delivery</p>
+      <div class="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm text-gray-300">
+        <span>📍 Porto Alegre, RS — Remoto</span>
+        <span>📞 (11) 99259-8156</span>
+        <span>✉ gabssantos.txt@gmail.com</span>
+        <a href="https://www.linkedin.com/in/gabssantos" target="_blank" rel="noopener" class="text-gray-300 hover:text-white underline underline-offset-2">🔗 linkedin.com/in/gabssantos</a>
+        <a href="https://gabssantos.figma.site" target="_blank" rel="noopener" class="text-gray-300 hover:text-white underline underline-offset-2">🎨 gabssantos.figma.site</a>
+      </div>
+    </div>
+
+    <div class="px-10 py-8">
+
+      <!-- Resumo Profissional -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-orange-700 mb-3">Resumo Profissional</h2>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          Product Designer Sênior com <strong>7 anos de experiência em produtos digitais complexos</strong>, com foco crescente em <strong>experiências orientadas a Inteligência Artificial</strong> e sistemas baseados em dados. Histórico consolidado em <strong>produtos de ML e data-driven</strong> — antifraude (Konduto/Equifax), Business Intelligence e fintech — desenhando jornadas que traduzem comportamentos de sistemas complexos em experiências claras e eficientes para o usuário. Especialista no ciclo completo de <strong>Discovery ao Delivery</strong>, com forte colaboração com Engenharia e Produto para transformar restrições técnicas em soluções de design. Utilizo <strong>IA de forma central no processo de design</strong>: prototipação ágil (Figma Make), síntese de pesquisa (NotebookLM) e construção de soluções (Moxt AI). Atualmente cursando <strong>AI Product Specialist pela PM3</strong>, aprofundando visão estratégica sobre produtos baseados em LLMs e agentes inteligentes.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-1">
+          <span class="diff-badge">✦ AI Product Design</span>
+          <span class="diff-badge">✦ ML / Data Products</span>
+          <span class="diff-badge">✦ Perceived Performance</span>
+          <span class="diff-badge">✦ Orquestração de Fluxos</span>
+          <span class="diff-badge">✦ Experimentação Contínua</span>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Experiência Profissional -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-orange-700 mb-5">Experiência Profissional</h2>
+
+        <!-- Todo | InComm Payments -->
+        <div class="mb-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="text-sm font-bold text-gray-900">Todo | InComm Payments</h3>
+              <p class="text-xs font-semibold text-orange-700 mt-0.5">Product Designer</p>
+            </div>
+            <div class="text-right text-xs text-gray-400 whitespace-nowrap ml-4">
+              <p>Set 2022 – Presente</p>
+              <p class="mt-0.5">Remoto · Pagamentos / Fintech / SaaS</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-sm text-gray-700">
+            <li class="exp-bullet">Responsável pelo ciclo completo de <strong>Discovery ao Delivery</strong> em plataforma de e-commerce whitelabel e sistema de backoffice para gestão de cartões-presente e pagamentos (PaaS), desenhando <strong>jornadas ponta a ponta</strong> em contextos de alta complexidade técnica.</li>
+            <li class="exp-bullet">Desenhei e otimizei fluxos com <strong>comportamento assíncrono e estados de espera</strong> — incluindo processamento de dados em background, validações e importações em lote — reduzindo ansiedade do usuário e taxa de abandono nesses pontos críticos.</li>
+            <li class="exp-bullet">Estruturei e implantei o processo de <strong>Design Ops</strong>, criando padrões de colaboração com a Engenharia e documentação de hand-off que aceleraram ciclos de entrega.</li>
+            <li class="exp-bullet">Conduzi pesquisas qualitativas e quantitativas, testes A/B e testes de usabilidade; acompanhei <strong>KPIs de comportamento via Hotjar e PostHog</strong> para embasar decisões e medir impacto das soluções.</li>
+            <li class="exp-bullet">Utilizei <strong>IA como ferramenta central do processo</strong>: <strong>Figma Make</strong> para prototipação e iteração acelerada de interfaces, <strong>NotebookLM</strong> para síntese e análise de pesquisas com usuários, e <strong>Moxt AI</strong> para organização estruturada de insights de produto — reduzindo significativamente o tempo de discovery.</li>
+            <li class="exp-bullet">Apresentei decisões de design para stakeholders e lideranças, conectando evidências de pesquisa com lógica de produto e impacto em métricas de negócio.</li>
+          </ul>
+          <div class="metric-badge">📈 Redesign da jornada B2B reduziu tickets de suporte de 22% para 8% do total mensal</div>
+          <div class="metric-badge">📈 Backoffice de gestão atingiu 100% de adoção entre parceiros e eliminou praticamente todos os tickets manuais em 3 meses</div>
+          <div class="metric-badge">📈 Redesign da plataforma de cartões-presente converteu 75% dos usuários que nunca haviam comprado o produto</div>
+          <div class="ai-badge">🤖 Uso de IA no processo encurtou ciclos de prototipação e síntese de pesquisa em até 60%</div>
+          <div class="mt-3 flex flex-wrap">
+            <span class="keyword-tag">Fintech</span><span class="keyword-tag">SaaS</span><span class="keyword-tag">Fluxos assíncronos</span><span class="keyword-tag">Performance percebida</span><span class="keyword-tag">Design Ops</span><span class="keyword-tag">Testes A/B</span><span class="keyword-tag">PostHog</span><span class="keyword-tag">Hotjar</span><span class="keyword-tag">Figma Make</span><span class="keyword-tag">NotebookLM</span><span class="keyword-tag">Moxt AI</span>
+          </div>
+        </div>
+
+        <!-- Boa Vista | Equifax -->
+        <div class="mb-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="text-sm font-bold text-gray-900">Boa Vista | Equifax</h3>
+              <p class="text-xs font-semibold text-orange-700 mt-0.5">Product Designer — Vertical de Antifraude (Konduto)</p>
+            </div>
+            <div class="text-right text-xs text-gray-400 whitespace-nowrap ml-4">
+              <p>Jan 2022 – Set 2022</p>
+              <p class="mt-0.5">São Paulo, SP · ML / Antifraude / Fintech</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-sm text-gray-700">
+            <li class="exp-bullet">Atuei no design de produto para um <strong>sistema baseado em machine learning</strong> de análise de risco e detecção de fraude — projetando interfaces que traduzem decisões algorítmicas complexas em experiências compreensíveis para analistas e gestores.</li>
+            <li class="exp-bullet">Responsável pelo ciclo de <strong>Discovery ao Delivery</strong> em colaboração direta com PMs, desenhando fluxos que acomodam a natureza probabilística e assíncrona das respostas do modelo.</li>
+            <li class="exp-bullet">Defini <strong>KPIs</strong> e monitorei comportamento de usuários via <strong>FullStory</strong>; conectei dados de uso a hipóteses de design para garantir taxas de sucesso das implementações.</li>
+            <li class="exp-bullet">Fomentei dinâmicas de <strong>co-criação, ideação e design critique</strong> com time e stakeholders; mantive rotina estruturada de alinhamento entre design, produto e engenharia.</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap">
+            <span class="keyword-tag">ML Product</span><span class="keyword-tag">Antifraude</span><span class="keyword-tag">Decisões algorítmicas</span><span class="keyword-tag">KPIs</span><span class="keyword-tag">FullStory</span><span class="keyword-tag">Design Thinking</span><span class="keyword-tag">Lean UX</span>
+          </div>
+        </div>
+
+        <!-- Konduto -->
+        <div class="mb-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="text-sm font-bold text-gray-900">Konduto</h3>
+              <p class="text-xs font-semibold text-orange-700 mt-0.5">Product Designer</p>
+            </div>
+            <div class="text-right text-xs text-gray-400 whitespace-nowrap ml-4">
+              <p>Mar 2021 – Jan 2022</p>
+              <p class="mt-0.5">São Paulo, SP · SaaS / ML / Antifraude</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-sm text-gray-700">
+            <li class="exp-bullet">Projetei jornadas e interfaces para produto de <strong>antifraude baseado em ML</strong>, traduzindo o comportamento do modelo (scores de risco, regras de decisão, filas de revisão) em fluxos acessíveis para diferentes perfis de usuário.</li>
+            <li class="exp-bullet">Conduzi o ciclo completo de Discovery ao Delivery — entrevistas com usuários, mapeamento de jornada, hipóteses de solução e entrega de <strong>protótipos de alta fidelidade</strong> (Figma e Adobe XD).</li>
+            <li class="exp-bullet">Apliquei e evoluí o <strong>UI Kit e Writing Guidelines</strong> do produto, garantindo consistência e escalabilidade do Design System.</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap">
+            <span class="keyword-tag">ML Product</span><span class="keyword-tag">SaaS</span><span class="keyword-tag">Fluxos de decisão</span><span class="keyword-tag">Prototipação</span><span class="keyword-tag">Design System</span><span class="keyword-tag">Mapeamento de jornada</span>
+          </div>
+        </div>
+
+        <!-- Keyrus -->
+        <div class="mb-2">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="text-sm font-bold text-gray-900">Keyrus Consulting</h3>
+              <p class="text-xs font-semibold text-orange-700 mt-0.5">UI & DataViz Designer</p>
+            </div>
+            <div class="text-right text-xs text-gray-400 whitespace-nowrap ml-4">
+              <p>Ago 2018 – Fev 2021</p>
+              <p class="mt-0.5">São Paulo, SP · Data Products / Business Intelligence</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-sm text-gray-700">
+            <li class="exp-bullet">Projetei <strong>produtos orientados a dados</strong> — dashboards analíticos, portais e apps de BI — com foco em Information Design e data storytelling para transformar dados de alta complexidade em experiências compreensíveis para usuários não-técnicos.</li>
+            <li class="exp-bullet">Conduzi pesquisas com usuários e testes de usabilidade em contextos de produto data-driven; realizei benchmarks com conclusões acionáveis para o time.</li>
+            <li class="exp-bullet">Facilitei dinâmicas de <strong>Design Thinking</strong>; elaborei wireframes, userflows e protótipos interativos de alta fidelidade para múltiplos clientes e verticais.</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap">
+            <span class="keyword-tag">Data Products</span><span class="keyword-tag">Business Intelligence</span><span class="keyword-tag">Information Design</span><span class="keyword-tag">Data Storytelling</span><span class="keyword-tag">Design Thinking</span>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Habilidades -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-orange-700 mb-4">Habilidades e Ferramentas</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">IA no Processo de Design</p>
+            <div class="space-y-1">
+              <div><span class="keyword-tag">Figma Make</span> <span class="text-xs text-gray-500">— prototipação e iteração acelerada</span></div>
+              <div><span class="keyword-tag">NotebookLM</span> <span class="text-xs text-gray-500">— síntese de pesquisa com usuários</span></div>
+              <div><span class="keyword-tag">Moxt AI</span> <span class="text-xs text-gray-500">— organização de insights de produto</span></div>
+              <div><span class="keyword-tag">Claude / GPT</span> <span class="text-xs text-gray-500">— ideação, escrita e fluxos de conteúdo</span></div>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Design de Produto & Serviço</p>
+            <div>
+              <span class="keyword-tag-blue">Jornadas ponta a ponta</span>
+              <span class="keyword-tag-blue">Service Design</span>
+              <span class="keyword-tag-blue">Pensamento sistêmico</span>
+              <span class="keyword-tag-blue">Fluxos assíncronos</span>
+              <span class="keyword-tag-blue">Perceived performance</span>
+              <span class="keyword-tag-blue">Chat & AI interfaces</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Pesquisa, Dados & Experimentação</p>
+            <div>
+              <span class="keyword-tag-blue">Hotjar</span>
+              <span class="keyword-tag-blue">PostHog</span>
+              <span class="keyword-tag-blue">FullStory</span>
+              <span class="keyword-tag-blue">Maze</span>
+              <span class="keyword-tag-blue">Useberry</span>
+              <span class="keyword-tag-blue">Power BI</span>
+              <span class="keyword-tag-blue">Testes A/B</span>
+              <span class="keyword-tag-blue">Análise de comportamento</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Design & Prototipação</p>
+            <div>
+              <span class="keyword-tag-blue">Figma (todos os recursos)</span>
+              <span class="keyword-tag-blue">Adobe Suite</span>
+              <span class="keyword-tag-blue">Miro</span>
+              <span class="keyword-tag-blue">Lucid</span>
+              <span class="keyword-tag-blue">Design System</span>
+              <span class="keyword-tag-blue">UI Kit</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Metodologias</p>
+            <div>
+              <span class="keyword-tag-blue">Discovery & Delivery</span>
+              <span class="keyword-tag-blue">Design Ops</span>
+              <span class="keyword-tag-blue">Design Thinking</span>
+              <span class="keyword-tag-blue">Lean UX</span>
+              <span class="keyword-tag-blue">Scrum</span>
+              <span class="keyword-tag-blue">Pesquisa quali/quanti</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Idiomas</p>
+            <div>
+              <span class="keyword-tag-blue">Português — Nativo</span>
+              <span class="keyword-tag-blue">Inglês — Avançado</span>
+              <span class="keyword-tag-blue">Japonês — Básico</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Formação -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-orange-700 mb-4">Formação Acadêmica</h2>
+        <div class="space-y-3">
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Pós-graduação em UX Design</p>
+              <p class="text-xs text-gray-500">PUC-RS — Pontifícia Universidade Católica do Rio Grande do Sul</p>
+            </div>
+            <p class="text-xs text-gray-400 whitespace-nowrap ml-4">2025 – 2026 (em curso)</p>
+          </div>
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Bacharelado em Design Digital</p>
+              <p class="text-xs text-gray-500">Universidade Anhembi Morumbi</p>
+            </div>
+            <p class="text-xs text-gray-400 whitespace-nowrap ml-4">2016 – 2019</p>
+          </div>
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-sm font-semibold text-gray-800">AI Product Specialist <span class="text-orange-600 font-bold">★</span></p>
+              <p class="text-xs text-gray-500">PM3 — foco em LLMs, agentes inteligentes e produtos baseados em IA</p>
+            </div>
+            <p class="text-xs text-gray-400 whitespace-nowrap ml-4">Out 2025 – Mar 2026 (em curso)</p>
+          </div>
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Product Design + Product Leadership</p>
+              <p class="text-xs text-gray-500">PM3</p>
+            </div>
+            <p class="text-xs text-gray-400 whitespace-nowrap ml-4">Out 2025 – Jun 2026 (em curso)</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Certificações -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-orange-700 mb-3">Certificações</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="keyword-tag-blue">Scrum Foundation Professional (SFPC)</span>
+          <span class="keyword-tag-blue">Information Design</span>
+          <span class="keyword-tag-blue">UX Design de A a Z</span>
+          <span class="keyword-tag-blue">Fundamentos do Design Gráfico</span>
+          <span class="keyword-tag-blue">Interpretação de Gráficos e Tabelas</span>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Comunidade -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-orange-700 mb-3">Comunidade</h2>
+        <p class="text-sm text-gray-700">Embaixadora da Comunidade <strong>Produteiros RS</strong> — promove a troca de conhecimento e o fortalecimento do ecossistema de design e produto no Brasil.</p>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-gray-50 border-t border-gray-100 px-10 py-4 text-center">
+      <p class="text-xs text-gray-400">Portfólio: <strong class="text-gray-500">gabssantos.figma.site</strong> · LinkedIn: <strong class="text-gray-500">linkedin.com/in/gabssantos</strong></p>
+    </div>
+
+  </div>
+</body>
+</html>
