@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo – Gabriela Santos | UX Designer · Discovery & Facilitation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    ::-webkit-scrollbar { width: 0; }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    * { font-family: 'Inter', sans-serif; }
+    .keyword-tag {
+      display: inline-block;
+      background: #F0FDF4;
+      color: #14532d;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin: 2px 2px 2px 0;
+    }
+    .keyword-tag-teal {
+      display: inline-block;
+      background: #F0FDFA;
+      color: #134e4a;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin: 2px 2px 2px 0;
+    }
+    .metric-badge {
+      background: #F0FDF4;
+      border-left: 3px solid #16A34A;
+      padding: 6px 10px;
+      border-radius: 0 4px 4px 0;
+      margin-top: 6px;
+      font-size: 12.5px;
+      color: #15803D;
+      font-weight: 500;
+    }
+    .section-divider {
+      border: none;
+      border-top: 1.5px solid #E5E7EB;
+      margin: 20px 0;
+    }
+    .exp-bullet::before {
+      content: "▸";
+      color: #0D9488;
+      margin-right: 6px;
+      font-size: 11px;
+    }
+    .diff-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #F0FDFA;
+      border: 1px solid #99F6E4;
+      color: #0F766E;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin: 2px 2px 2px 0;
+    }
+    @media print {
+      @page {
+        size: A4;
+        margin: 12mm 14mm;
+      }
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body {
+        width: 100%;
+        height: auto;
+        background: white !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .no-print { display: none !important; }
+      body > div.max-w-\[800px\] {
+        max-width: 100% !important;
+        box-shadow: none !important;
+        border: none !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      section, .mb-7, .metric-badge, ul {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      h2 { page-break-after: avoid; break-after: avoid; }
+      h3 { page-break-after: avoid; break-after: avoid; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 py-8 px-4">
+
+  <!-- Print button -->
+  <div class="no-print max-w-[800px] mx-auto mb-4 flex justify-end gap-2">
+    <button onclick="window.print()" class="text-xs bg-teal-700 text-white px-4 py-2 rounded-lg hover:bg-teal-800 transition">
+      ⬇ Imprimir / Salvar PDF
+    </button>
+  </div>
+
+  <!-- Resume container -->
+  <div class="max-w-[800px] mx-auto bg-white shadow-sm border border-gray-100 rounded-xl">
+
+    <!-- Header -->
+    <div class="bg-gradient-to-r from-teal-900 to-teal-700 px-10 py-8 text-white">
+      <h1 class="text-3xl font-bold tracking-tight">Gabriela Santos</h1>
+      <p class="text-teal-200 text-base font-semibold mt-1">UX Designer Sênior · Discovery & Facilitation · Research-Driven Design</p>
+      <div class="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm text-teal-100">
+        <span>📍 Porto Alegre, RS — Remoto</span>
+        <span>📞 (11) 99259-8156</span>
+        <span>✉ gabssantos.txt@gmail.com</span>
+        <a href="https://www.linkedin.com/in/gabssantos" target="_blank" rel="noopener" class="text-teal-100 hover:text-white underline underline-offset-2">🔗 linkedin.com/in/gabssantos</a>
+        <a href="https://gabssantos.figma.site" target="_blank" rel="noopener" class="text-teal-100 hover:text-white underline underline-offset-2">🎨 gabssantos.figma.site</a>
+      </div>
+    </div>
+
+    <div class="px-10 py-8">
+
+      <!-- Resumo Profissional -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-teal-700 mb-3">Resumo Profissional</h2>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          UX Designer Sênior com <strong>7 anos de experiência em produtos digitais complexos</strong>, atuando do Discovery à entrega — com forte especialização em <strong>facilitação de dinâmicas de design</strong> (Design Sprints, Lean Inception, co-criação e Design Thinking), pesquisa com usuários e tomada de decisão embasada em dados. Histórico consolidado em contextos desafiadores: <strong>antifraude baseado em machine learning, plataformas SaaS, Business Intelligence e fintechs</strong>, onde traduziu comportamentos complexos em experiências claras e eficientes. Experiente em <strong>liderar iniciativas de design</strong>, alinhar soluções com objetivos estratégicos do negócio e apresentar insights de forma acionável para stakeholders e lideranças. Proficiência avançada em <strong>Figma</strong> e no ciclo completo de prototipagem, wireframing e testes de usabilidade.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-1">
+          <span class="diff-badge">✦ Facilitation (Sprints, Lean Inception)</span>
+          <span class="diff-badge">✦ Discovery Liderado por Pesquisa</span>
+          <span class="diff-badge">✦ Liderança de Design</span>
+          <span class="diff-badge">✦ Alinhamento Estratégico</span>
+          <span class="diff-badge">✦ Dados & Comportamento</span>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Experiência Profissional -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-teal-700 mb-5">Experiência Profissional</h2>
+
+        <!-- Todo | InComm Payments -->
+        <div class="mb-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="text-sm font-bold text-gray-900">Todo | InComm Payments</h3>
+              <p class="text-xs font-semibold text-teal-700 mt-0.5">Product Designer Sênior</p>
+            </div>
+            <div class="text-right text-xs text-gray-400 whitespace-nowrap ml-4">
+              <p>Set 2022 – Presente</p>
+              <p class="mt-0.5">Remoto · Pagamentos / Fintech / SaaS</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-sm text-gray-700">
+            <li class="exp-bullet">Responsável pela <strong>liderança do processo de Discovery ao Delivery</strong> em produtos de e-commerce whitelabel e plataforma de backoffice para gestão de cartões-presente e pagamentos (PaaS), coordenando a visão de design junto a Produto e Engenharia.</li>
+            <li class="exp-bullet">Estruturei e implantei o processo de <strong>Design Ops</strong> do time — criando padrões de colaboração, documentação de hand-off e alinhamento com engenharia — orientando e nivelando a equipe de design nas novas práticas.</li>
+            <li class="exp-bullet">Facilitei dinâmicas de <strong>co-criação, Design Sprints e workshops de ideação</strong> com times interdisciplinares, conectando estratégia de negócio com necessidades reais dos usuários.</li>
+            <li class="exp-bullet">Conduzi <strong>pesquisas qualitativas e quantitativas</strong>, entrevistas com usuários, testes de usabilidade e testes A/B para identificar oportunidades e validar hipóteses de solução.</li>
+            <li class="exp-bullet">Defini e acompanhei <strong>KPIs e métricas de comportamento</strong> via Hotjar e PostHog; apresentei insights complexos de forma clara e acionável para stakeholders e lideranças, conectando resultados de pesquisa a decisões estratégicas de produto.</li>
+            <li class="exp-bullet">Atuei em ambiente <strong>ágil (Scrum)</strong>, com entregas contínuas e adaptação rápida de hipóteses baseadas em evidências de uso.</li>
+          </ul>
+          <div class="metric-badge">📈 Redesign da jornada B2B reduziu tickets de suporte de 22% para 8% do total mensal</div>
+          <div class="metric-badge">📈 Backoffice de gestão atingiu 100% de adoção entre parceiros e eliminou praticamente todos os tickets manuais em 3 meses</div>
+          <div class="metric-badge">📈 Redesign da plataforma de cartões-presente converteu 75% dos usuários que nunca haviam comprado o produto</div>
+          <div class="mt-3 flex flex-wrap">
+            <span class="keyword-tag">Liderança de Design</span><span class="keyword-tag">Design Ops</span><span class="keyword-tag">Design Sprint</span><span class="keyword-tag">Co-criação</span><span class="keyword-tag">Discovery</span><span class="keyword-tag">Pesquisa qualitativa</span><span class="keyword-tag">Testes A/B</span><span class="keyword-tag">KPIs</span><span class="keyword-tag">Hotjar</span><span class="keyword-tag">PostHog</span><span class="keyword-tag">Scrum</span><span class="keyword-tag">Figma</span>
+          </div>
+        </div>
+
+        <!-- Boa Vista | Equifax -->
+        <div class="mb-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="text-sm font-bold text-gray-900">Boa Vista | Equifax</h3>
+              <p class="text-xs font-semibold text-teal-700 mt-0.5">Product Designer — Vertical de Antifraude (Konduto)</p>
+            </div>
+            <div class="text-right text-xs text-gray-400 whitespace-nowrap ml-4">
+              <p>Jan 2022 – Set 2022</p>
+              <p class="mt-0.5">São Paulo, SP · Fintech / Antifraude</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-sm text-gray-700">
+            <li class="exp-bullet">Co-responsável pelo processo de <strong>Discovery ao Delivery</strong> na vertical de antifraude, em colaboração direta com os PMs e times de engenharia — alinhando objetivos estratégicos do negócio às necessidades dos usuários.</li>
+            <li class="exp-bullet">Fomentei dinâmicas de <strong>co-criação, ideação e design critique</strong> com time e stakeholders; mantive rotina estruturada de alinhamento de produto e apresentação de decisões de design.</li>
+            <li class="exp-bullet">Conduzi entrevistas com usuários, testes de usabilidade e pesquisas qualitativas e quantitativas para mapeamento profundo das necessidades das personas.</li>
+            <li class="exp-bullet">Defini <strong>KPIs</strong> e monitorei comportamento via <strong>FullStory</strong>, conectando dados de uso a hipóteses e garantindo taxas de sucesso das implementações.</li>
+            <li class="exp-bullet">Construí protótipos de alta fidelidade em <strong>Figma</strong> e Adobe XD; aplicou e evoluiu UI Kit e Writing Guidelines do produto.</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap">
+            <span class="keyword-tag">Co-criação</span><span class="keyword-tag">Design Critique</span><span class="keyword-tag">Pesquisa qualitativa</span><span class="keyword-tag">KPIs</span><span class="keyword-tag">FullStory</span><span class="keyword-tag">Prototipagem</span><span class="keyword-tag">Lean UX</span><span class="keyword-tag">Figma</span>
+          </div>
+        </div>
+
+        <!-- Konduto -->
+        <div class="mb-7">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="text-sm font-bold text-gray-900">Konduto</h3>
+              <p class="text-xs font-semibold text-teal-700 mt-0.5">Product Designer</p>
+            </div>
+            <div class="text-right text-xs text-gray-400 whitespace-nowrap ml-4">
+              <p>Mar 2021 – Jan 2022</p>
+              <p class="mt-0.5">São Paulo, SP · SaaS / Antifraude</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-sm text-gray-700">
+            <li class="exp-bullet">Conduzi o ciclo completo de Discovery ao Delivery — entrevistas com usuários, mapeamento de jornada, formulação de hipóteses de solução e entrega de <strong>protótipos de alta fidelidade</strong> (Figma e Adobe XD).</li>
+            <li class="exp-bullet">Realizei pesquisas qualitativas e quantitativas para compreender necessidades das personas; facilitei sessões de ideação e design critique com o time de produto.</li>
+            <li class="exp-bullet">Apliquei e evoluí o <strong>UI Kit e Writing Guidelines</strong> do produto, garantindo consistência e escalabilidade do Design System.</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap">
+            <span class="keyword-tag">Discovery</span><span class="keyword-tag">Wireframes</span><span class="keyword-tag">Prototipagem</span><span class="keyword-tag">Testes de usabilidade</span><span class="keyword-tag">Design System</span><span class="keyword-tag">Mapeamento de jornada</span><span class="keyword-tag">Figma</span>
+          </div>
+        </div>
+
+        <!-- Keyrus -->
+        <div class="mb-2">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="text-sm font-bold text-gray-900">Keyrus Consulting</h3>
+              <p class="text-xs font-semibold text-teal-700 mt-0.5">UI & DataViz Designer</p>
+            </div>
+            <div class="text-right text-xs text-gray-400 whitespace-nowrap ml-4">
+              <p>Ago 2018 – Fev 2021</p>
+              <p class="mt-0.5">São Paulo, SP · Business Intelligence</p>
+            </div>
+          </div>
+          <ul class="mt-3 space-y-1.5 text-sm text-gray-700">
+            <li class="exp-bullet">Projetei dashboards analíticos e portais com foco em <strong>Information Design e Data Storytelling</strong>, traduzindo dados complexos em experiências compreensíveis para diferentes perfis de usuário.</li>
+            <li class="exp-bullet">Conduzi pesquisas e testes de usabilidade em contextos de produto orientado a dados; apresentei benchmarks com conclusões acionáveis para stakeholders.</li>
+            <li class="exp-bullet">Facilitei dinâmicas de <strong>Design Thinking</strong>; elaborei wireframes, userflows e protótipos interativos de alta fidelidade para múltiplos clientes e verticais.</li>
+          </ul>
+          <div class="mt-3 flex flex-wrap">
+            <span class="keyword-tag">Design Thinking</span><span class="keyword-tag">Facilitation</span><span class="keyword-tag">Wireframes</span><span class="keyword-tag">Information Design</span><span class="keyword-tag">Pesquisa de usuário</span><span class="keyword-tag">Data Storytelling</span>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Habilidades -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-teal-700 mb-4">Habilidades e Ferramentas</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Facilitação & Metodologias</p>
+            <div>
+              <span class="keyword-tag-teal">Design Thinking</span>
+              <span class="keyword-tag-teal">Design Sprint</span>
+              <span class="keyword-tag-teal">Lean Inception</span>
+              <span class="keyword-tag-teal">Co-criação</span>
+              <span class="keyword-tag-teal">Discovery Facilitation</span>
+              <span class="keyword-tag-teal">Lean UX</span>
+              <span class="keyword-tag-teal">Scrum</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Pesquisa de Usuário</p>
+            <div>
+              <span class="keyword-tag-teal">Entrevistas com usuários</span>
+              <span class="keyword-tag-teal">Testes de usabilidade</span>
+              <span class="keyword-tag-teal">Pesquisa qualitativa</span>
+              <span class="keyword-tag-teal">Pesquisa quantitativa</span>
+              <span class="keyword-tag-teal">Mapeamento de jornada</span>
+              <span class="keyword-tag-teal">Análise de comportamento</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Design & Prototipagem</p>
+            <div>
+              <span class="keyword-tag-teal">Figma (todos os recursos)</span>
+              <span class="keyword-tag-teal">Adobe XD</span>
+              <span class="keyword-tag-teal">Adobe Suite</span>
+              <span class="keyword-tag-teal">Miro</span>
+              <span class="keyword-tag-teal">Wireframes</span>
+              <span class="keyword-tag-teal">Prototipagem de alta fidelidade</span>
+              <span class="keyword-tag-teal">Design System</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Dados & Analytics</p>
+            <div>
+              <span class="keyword-tag-teal">Hotjar</span>
+              <span class="keyword-tag-teal">PostHog</span>
+              <span class="keyword-tag-teal">FullStory</span>
+              <span class="keyword-tag-teal">Maze</span>
+              <span class="keyword-tag-teal">Useberry</span>
+              <span class="keyword-tag-teal">Power BI</span>
+              <span class="keyword-tag-teal">Testes A/B</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Liderança & Produto</p>
+            <div>
+              <span class="keyword-tag-teal">Design Ops</span>
+              <span class="keyword-tag-teal">Discovery & Delivery</span>
+              <span class="keyword-tag-teal">Alinhamento com stakeholders</span>
+              <span class="keyword-tag-teal">KPIs de produto</span>
+              <span class="keyword-tag-teal">Design Critique</span>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold text-gray-500 uppercase mb-2">Idiomas</p>
+            <div>
+              <span class="keyword-tag-teal">Português — Nativo</span>
+              <span class="keyword-tag-teal">Inglês — Avançado</span>
+              <span class="keyword-tag-teal">Japonês — Básico</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Formação -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-teal-700 mb-4">Formação Acadêmica</h2>
+        <div class="space-y-3">
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Pós-graduação em UX Design</p>
+              <p class="text-xs text-gray-500">PUC-RS — Pontifícia Universidade Católica do Rio Grande do Sul</p>
+            </div>
+            <p class="text-xs text-gray-400 whitespace-nowrap ml-4">2025 – 2026 (em curso)</p>
+          </div>
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Bacharelado em Design Digital</p>
+              <p class="text-xs text-gray-500">Universidade Anhembi Morumbi</p>
+            </div>
+            <p class="text-xs text-gray-400 whitespace-nowrap ml-4">2016 – 2019</p>
+          </div>
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-sm font-semibold text-gray-800">Product Design + Product Leadership + AI Product Specialist</p>
+              <p class="text-xs text-gray-500">PM3</p>
+            </div>
+            <p class="text-xs text-gray-400 whitespace-nowrap ml-4">2025 – 2026 (em curso)</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Certificações -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-teal-700 mb-3">Certificações</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="keyword-tag-teal">Scrum Foundation Professional (SFPC)</span>
+          <span class="keyword-tag-teal">Information Design</span>
+          <span class="keyword-tag-teal">UX Design de A a Z</span>
+          <span class="keyword-tag-teal">Fundamentos do Design Gráfico</span>
+          <span class="keyword-tag-teal">Interpretação de Gráficos e Tabelas</span>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Comunidade -->
+      <section>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-teal-700 mb-3">Comunidade</h2>
+        <p class="text-sm text-gray-700">Embaixadora da Comunidade <strong>Produteiros RS</strong> — promove a troca de conhecimento e o fortalecimento do ecossistema de design e produto no Brasil.</p>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-gray-50 border-t border-gray-100 px-10 py-4 text-center">
+      <p class="text-xs text-gray-400">Portfólio: <strong class="text-gray-500">gabssantos.figma.site</strong> · LinkedIn: <strong class="text-gray-500">linkedin.com/in/gabssantos</strong></p>
+    </div>
+
+  </div>
+</body>
+</html>
